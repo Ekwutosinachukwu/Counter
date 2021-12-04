@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8"> 
+ <meta name="Alexander-Platz" content="about Alexander-Platz">
+ <link rel="stylesheet" type="text/css" href="style2.css">
+ <title>Alexander-Platz</title>
+ 
+</head>
+   
+   <nav class="navbar">
+      <div class="brand-name"> Brandname</div>
+      <a href="#" class="toggle-button">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+       <ul>
+          <li><a href="People counter.html"> Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html"> Contact Us</a></li>
+       </ul>
+      </div>
+  </nav>
+  
+<body>
+   <hi class= "h1"> Alexander-Platz <br>People Counter </h1>
+   
+ <main>
+   <h2 class= "h2" id= "people-input"> 0 </h2>
+   <script src ="function.js"></script>
+
+     <div class="final-buttons">
+      <button id="addition" onclick="addition()"> Increment </button>
+      <br>
+      </div>
+      <div class="final-buttons">
+        <button type="Reset" id="reset" onclick="reset()">Reset</button>
+        <button type="Save" id="save" onclick="save()">Save</button>
+        <p id="report-save">Previous counts: </p>
+      </div>
+   </main>  
+</body>
+
+
+</html>
